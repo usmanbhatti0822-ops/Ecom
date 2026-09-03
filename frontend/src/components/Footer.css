@@ -1,0 +1,4 @@
+.site-footer { background: var(--surface); border-top: 1px solid var(--border); margin-top: 60px; }
+.footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; padding: 44px 24px; }
+.footer-inner a { display: inline-block; color: var(--ink-soft); margin-bottom: 8px; font-size: .88rem; }
+@media (max-width: 640px) { .footer-inner { grid-template-columns: 1fr; } }
